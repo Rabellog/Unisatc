@@ -1,0 +1,5 @@
+nome=str(input("Digite o seu nome: "))
+nome_mai=nome.upper()
+nome_min=nome_mai.title()
+nome_certo=nome_min.swapcase()
+print(f"O nome é: {nome_certo}")
